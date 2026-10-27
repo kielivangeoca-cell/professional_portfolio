@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Kiel Ivan D. Geoca | Web Portfolio</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;700;800&family=JetBrains+Mono:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="chrome">
+        <div class="in">
+            <div class="row">
+                <div class="dots" aria-hidden="true"><i></i><i></i><i></i></div>
+                <div class="url" aria-live="off"><b>https://</b><span id="addr">kielgeoca.dev/</span></div>
+                <button id="theme" type="button" aria-label="Switch light or dark">Light / Dark</button>
+            </div>
+            <nav class="tabs" aria-label="Sections"><a href="#home">Home</a><a href="#profile">Profile</a><a
+                    href="#skills">Skills</a><a href="#projects">Projects</a><a href="#solving">Problem-solving</a><a
+                    href="#employ">Employability</a><a href="#resume">Resume</a><a href="#certs">Certificates</a><a
+                    href="#github">GitHub</a><a href="#contact">Contact</a><a href="#reflection">Reflection</a></nav>
+        </div>
+    </header>
+
+    <main>
+        <div id="home" class="hero">
+            <div>
+                <span class="status">200 OK · open to entry-level roles</span>
+                <h1>Kiel Ivan D. <em>Geoca</em></h1>
+                <p>Beginner BSIT graduate learning to build web systems that connect an interface to a database. I am
+                    building my foundation in HTML, CSS, JavaScript, SQL and Git, with a project or repository behind
+                    every skill.</p>
+                <div class="btns"><a class="btn fill" href="#projects">View my projects</a><a class="btn"
+                        href="resume.pdf" download>Download resume</a><a class="btn" href="#contact">Contact me</a>
+                </div>
+            </div>
+            <div class="globe">
+                <svg viewBox="0 0 320 320" aria-hidden="true">
+                    <circle class="g1" cx="160" cy="160" r="140" fill="var(--bg)" />
+                    <ellipse class="g1" cx="160" cy="160" rx="140" ry="50" />
+                    <ellipse class="g1" cx="160" cy="160" rx="140" ry="100" />
+                    <ellipse class="g1" cx="160" cy="160" rx="50" ry="140" />
+                    <ellipse class="g1" cx="160" cy="160" rx="100" ry="140" />
+                    <path class="g1" d="M20 160H300M160 20V300" />
+                    <path class="arc" d="M80 100Q160 20 240 90" />
+                    <path class="arc h" d="M240 90Q290 170 200 240" />
+                    <path class="arc" d="M200 240Q120 290 70 210" />
+                    <path class="arc h" d="M70 210Q40 150 80 100" />
+                    <path class="arc" d="M80 100Q170 190 200 240" />
+                    <g fill="var(--page)" stroke="var(--acc)" stroke-width="3">
+                        <circle cx="80" cy="100" r="7" />
+                        <circle cx="240" cy="90" r="7" />
+                        <circle cx="200" cy="240" r="7" />
+                        <circle cx="70" cy="210" r="7" />
+                    </g>
+                </svg>
+                <div class="photo"><img src="images/kiel.jpg" alt="Portrait of Kiel Ivan D. Geoca" width="775"
+                        height="747"></div>
+            </div>
+        </div>
+
+        <section id="profile" data-url="kielgeoca.dev/profile">
+            <div class="h">
+                <h2>Professional profile</h2><code>GET /profile</code>
+            </div>
+            <div class="grid">
+                <div class="card">
+                    <h3>About me</h3>
+                    <p>I am a beginner-level BSIT graduate from Datamex College of Saint Adeline. I have learned the
+                        basics of HTML, CSS and JavaScript, and I am eager to keep growing. I enjoy learning how a
+                        simple system can solve a real problem. I value honesty, clear documentation and asking for
+                        help. I am looking for an entry-level or internship role as a Junior Web Developer, where I can
+                        learn from a team and build real systems.</p>
+                </div>
+                <div class="card">
+                    <h3>At a glance</h3>
+                    <ul>
+                        <li>Specialization: BSIT</li>
+                        <li>Level: beginner, entry-level</li>
+                        <li>Target position: Junior Web Developer</li>
+                        <li>Preferred field: Web development</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Principle</h3>
+                    <p><b>Keep learning, keep building.</b> I practice a little every day and improve one small project
+                        at a time.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" data-url="kielgeoca.dev/skills">
+            <div class="h">
+                <h2>Technical skills</h2><code>GET /skills</code>
+            </div>
+            <div class="grid">
+                <div class="card">
+                    <h3>Programming</h3>
+                    <div class="lv"><span>Python</span><span>Beginner</span></div>
+                    <div class="pb"><i style="width:30%"></i></div>
+                    <div class="lv"><span>Java / C++ / C#</span><span>Beginner</span></div>
+                    <div class="pb"><i style="width:30%"></i></div>
+                </div>
+                <div class="card">
+                    <h3>Web development</h3>
+                    <div class="lv"><span>HTML / CSS</span><span>Beginner</span></div>
+                    <div class="pb"><i style="width:30%"></i></div>
+                    <div class="lv"><span>JavaScript / Bootstrap</span><span>Beginner</span></div>
+                    <div class="pb"><i style="width:30%"></i></div>
+                </div>
+                <div class="card">
+                    <h3>Database</h3>
+                    <div class="lv"><span>SQL / MySQL</span><span>Beginner</span></div>
+                    <div class="pb"><i style="width:30%"></i></div>
+                    <div class="lv"><span>ERD / design</span><span>Beginner</span></div>
+                    <div class="pb"><i style="width:30%"></i></div>
+                </div>
+                <div class="card">
+                    <h3>Tools, network, security</h3>
+                    <div class="lv"><span>Git / GitHub</span><span>Beginner</span></div>
+                    <div class="pb"><i style="width:30%"></i></div>
+                    <div class="lv"><span>TCP/IP, DNS, troubleshooting</span><span>Beginner</span></div>
+                    <div class="pb"><i style="width:30%"></i></div>
+                    <div class="lv"><span>Security fundamentals</span><span>Beginner</span></div>
+                    <div class="pb"><i style="width:30%"></i></div>
+                </div>
+                <div class="card">
+                    <h3>Data, cloud, AI</h3>
+                    <div class="lv"><span>Excel / Sheets analysis</span><span>Beginner</span></div>
+                    <div class="pb"><i style="width:30%"></i></div>
+                    <div class="lv"><span>Deployment / hosting</span><span>Beginner</span></div>
+                    <div class="pb"><i style="width:30%"></i></div>
+                    <div class="lv"><span>Responsible AI use</span><span>Beginner</span></div>
+                    <div class="pb"><i style="width:30%"></i></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" data-url="kielgeoca.dev/projects">
+            <div class="h">
+                <h2>Projects</h2><code>GET /projects</code>
+            </div>
+            <div class="grid">
+                <div class="card">
+                    <h3>HOOPEDIA – The Basketball Knowledge Library</h3>
+                    <p>A basketball information website designed to provide users with knowledge about basketball, including its history, rules, positions, teams, and players. The website features organized content and a simple, user-friendly design to make basketball information easy to access and understand.
+                    </p><span class="tag">HTML</span><span
+                        class="tag">CSS</span><span class="tag">JavaScript</span>
+                    <div class="btns"><a class="btn" href="#">Live demo</a><a class="btn" href="#">Repository</a></div>
+                </div>
+                <div class="card">
+                    <h3>Student Management System</h3>
+                    <p>A web-based system designed to manage student records efficiently. It allows administrators to add, edit, delete, search, and view student information. The system includes login authentication, input validation, and a MySQL database to keep student records organized and secure.
+                    </p><span class="tag">SQL</span><span class="tag">HTML</span><span class="tag">CSS & JavaScript</span>
+                    <div class="btns"><a class="btn" href="#">View analysis</a><a class="btn" href="#">Repository</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Specialization project</h3>
+                    <p>A project in your chosen area (cybersecurity, networking, cloud, mobile or AI) that shows where
+                        you want to grow.</p><span class="tag">[Tech]</span><span class="tag">[Tech]</span>
+                    <div class="btns"><a class="btn" href="#">Details</a><a class="btn" href="#">Repository</a></div>
+                </div>
+            </div>
+            <p class="note">Each repository README covers overview, problem, objectives, users, technologies, features,
+                architecture, database design, screenshots, installation, usage, testing, limitations and future work.
+                Link at least one live demo.</p>
+        </section>
+
+        <section id="solving" data-url="kielgeoca.dev/problem-solving">
+            <div class="h">
+                <h2>Problem-solving</h2><code>GET /cases</code>
+            </div>
+            <div class="grid">
+                <div class="card">
+                    <h3>Identify</h3>
+                    <p>Describe the problem clearly: what is happening, what should happen, and when it started.</p>
+                </div>
+                <div class="card">
+                    <h3>Check</h3>
+                    <p>Test possible causes one at a time, starting with the simplest, until the real cause is found.
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>Document</h3>
+                    <p>Write down the cause, the fix and the lesson learned so the problem is easier to solve next time.
+                    </p>
+                </div>
+            </div>
+            <div class="card" style="margin-top:16px">
+                <h3>Example: computer cannot connect to Wi-Fi</h3>
+                <ul>
+                    <li><b>Identify:</b> the laptop shows it is connected, but there is no internet.</li>
+                    <li><b>Check:</b> confirm the adapter is on, run ipconfig, ping the router, then ping 8.8.8.8, then
+                        a website.</li>
+                    <li><b>Document:</b> note which step failed, how it was fixed, and the lesson: test each network
+                        layer in order.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="employ" data-url="kielgeoca.dev/employability">
+            <div class="h">
+                <h2>Employability</h2><code>GET /employability</code>
+            </div>
+            <div class="grid">
+                <div class="card">
+                    <h3>Career direction</h3>
+                    <p>I want to start as a Junior Web Developer and grow in web development, building websites that
+                        connect an interface to a database.</p>
+                </div>
+                <div class="card">
+                    <h3>Professional habits</h3>
+                    <ul>
+                        <li>Ask for help early</li>
+                        <li>Document my work</li>
+                        <li>Test before I submit</li>
+                        <li>Meet deadlines</li>
+                        <li>Accept feedback and improve</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>My next goal</h3>
+                    <p>Finish my first full web project with a live demo and a repository, and strengthen my JavaScript
+                        and SQL basics.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="resume" data-url="kielgeoca.dev/resume.pdf">
+            <div class="h">
+                <h2>Resume</h2><code>GET /resume.pdf</code>
+            </div>
+            <div class="card">
+                <p>One-page IT resume with summary, technical skills, education, projects, certifications and
+                    achievements.</p>
+                <div class="btns"><a class="btn fill" href="resume.pdf" download>Download resume (PDF)</a><a class="btn"
+                        href="#">LinkedIn profile</a></div>
+            </div>
+        </section>
+
+        <section id="certs" data-url="kielgeoca.dev/certificates">
+            <div class="h">
+                <h2>Certificates and achievements</h2><code>GET /certificates</code>
+            </div>
+            <div class="grid">
+                <div class="card cert">
+                    <a href="certificates/arduino-101.pdf" target="_blank" rel="noopener"><img
+                            src="images/cert-arduino.jpg"
+                            alt="Certificate of Participation: Arduino 101, Coding Meets Hardware" loading="lazy"></a>
+                    <h3>Arduino 101: Coding Meets Hardware</h3>
+                    <p>Certificate of Participation (1-hour webinar), UpskillTechPH Training Services, August 5, 2026.
+                    </p>
+                    <p class="meta">ID: 33dc9d77f9ce6dc40f55f193e7d5bb42</p>
+                    <div class="btns"><a class="btn" href="certificates/arduino-101.pdf" target="_blank"
+                            rel="noopener">View PDF</a></div>
+                </div>
+                <div class="card cert">
+                    <a href="certificates/qa-101.pdf" target="_blank" rel="noopener"><img src="images/cert-qa.jpg"
+                            alt="Certificate of Participation: QA 101, Software Quality, Bug Tracking and Manual Testing"
+                            loading="lazy"></a>
+                    <h3>QA 101: Software Quality | Bug Tracking and Manual Testing</h3>
+                    <p>Certificate of Participation (1-hour webinar), UpskillTechPH Training Services, August 5, 2026.
+                    </p>
+                    <p class="meta">ID: 1c4ac40b6f890cf4a23b46c19854b0a7</p>
+                    <div class="btns"><a class="btn" href="certificates/qa-101.pdf" target="_blank" rel="noopener">View
+                            PDF</a></div>
+                </div>
+                <div class="card">
+                    <h3>[Achievement]</h3>
+                    <p>[Details]</p>
+                </div>
+            </div>
+            <p class="note">These are attendance certificates, not professional certifications, so they are labeled as
+                participation.</p>
+        </section>
+
+        <section id="github" data-url="github.com/[username]">
+            <div class="h">
+                <h2>GitHub</h2><code>GET github.com</code>
+            </div>
+            <div class="card">
+                <p>Source code, commit history and documentation for every project.</p>
+                <div class="btns"><a class="btn fill" href="https://github.com/kielivangeoca-cell" target="_blank" rel="noopener">Open my
+                        GitHub</a></div>
+            </div>
+        </section>
+
+        <section id="contact" data-url="kielgeoca.dev/contact">
+            <div class="h">
+                <h2>Contact</h2><code>GET /contact</code>
+            </div>
+            <div class="grid">
+                <div class="card">
+                    <h3>Kiel Ivan D. Geoca</h3>
+                    <p>Email: kiel.geoca@gmail.com<br>LinkedIn: https://www.linkedin.com/in/k-i-d-g-a89400445 <br>GitHub: https://github.com/kielivangeoca-cell</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="reflection" data-url="kielgeoca.dev/reflection">
+            <div class="h">
+                <h2>Reflection</h2><code>GET /reflection</code>
+            </div>
+            <div class="card">
+                <p>Before BSIT, I only used computers as a user. Through my studies I learned that every website and
+                    system starts with simple pieces: HTML for structure, CSS for design and JavaScript for behavior.
+                    Seeing a page I wrote come to life taught me that small steps add up.</p>
+                <p>I am still a beginner, and I know I need more practice, especially with JavaScript, databases and
+                    building complete projects. Attending the Arduino 101 and QA 101 webinars also showed me that good
+                    work includes testing and documenting, not only writing code.</p>
+                <p>I want to become a Junior Web Developer who is honest about what I know, asks for help when I am
+                    stuck, and keeps improving. I am ready to start, learn from a team and build real systems.</p>
+            </div>
+        </section>
+    </main>
+    <footer>Kiel Ivan D. Geoca · BSIT, Datamex College of Saint Adeline</footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
