@@ -432,6 +432,14 @@ section {
     margin-top: 14px
 }
 
+.interview-video {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    background: #000
+}
+
 /* ===== Certificates ===== */
 .cert img {
     width: 100%;
